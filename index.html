@@ -10,6 +10,7 @@
     <meta property="og:description" content="<3 <3 <3" />
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/book.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/spinload.css">
     <link rel="stylesheet" type="text/css" href=" https://fonts.googleapis.com/css?family=Pacifico" />
@@ -17,22 +18,73 @@
     <link rel="icon" href="img/imgshare.png" type="image/icon type">
 </head>
 
-<body style="background-image: url('/img/brImg.jpg'); height: 100%; background-position: center; background-repeat: no-repeat;  ">
+<!--body -->
+<body translate="no" style="background-image: url('/img/brImg.jpg'); height: 100%; background-position: center; background-repeat: no-repeat; ">
     <div class="bg1"></div>
+    <div class="book bound" style="display:none;">
+        <div class="pages">
+            <div class="page">
+                <h1>28-07</h1>
+                <h2>Happy birthday</h2>
+            </div>
+            <div class="page">
+                <!--endpaper-->
+            </div>
+            <div class="page">
+                <!--endpaper-->
+            </div>
+            <div class="page">
+                <!--colophon-->
+            </div>
+            <div class="page">
+                <!--title-->
+            </div>
+            <div class="page">
+                <!--01-->
+            </div>
+            <div class="page">There was a boy<br>Who had it rough</div>
+            <div class="page">His adventure<br>Was to be tough</div>
+            <div class="page">
+                <!--04-->
+            </div>
+            <div class="page">
+                <!--05-->
+            </div>
+            <div class="page">He knew his Mother<br>Had left this land</div>
+            <div class="page">He knew his Father<br>Like the back of his hand</div>
+            <div class="page">
+                <!--08-->
+            </div>
+            <div class="page">There were monsters<br>He had to fight</div>
+            <div class="page">
+                <!--10-->
+            </div>
+            <div class="page">
+                <h3>
+                    Nếu xếp muốn hiểu tụi em nhiều hơn thì nhấn nha
+                </h3>
+            </div>
+            <div class="page">
+                <!--backcover-->
+            </div>
+        </div>
+    </div>
     <div class="wrapper">
         <canvas id=c></canvas>
         <!-- Preloader -->
         <!--<div id="preloader">
-        <div class="spinner">
-            <div class="rect1"></div>
-            <div class="rect2"></div>
-            <div class="rect3"></div>
-            <div class="rect4"></div>
-            <div class="rect5"></div>
-        </div>
-    </div>-->
+            <div class="spinner">
+                <div class="rect1"></div>
+                <div class="rect2"></div>
+                <div class="rect3"></div>
+                <div class="rect4"></div>
+                <div class="rect5"></div>
+            </div>
+        </div>-->
 
-        <div id="bg"></div>
+        <!--<div id="bg">
+
+        </div>-->
         <div class="content">
             <header>
                 <h2 id="title"></h2>
@@ -42,7 +94,7 @@
             <button id="no" type="button" class="btn btn-info btn-lg"></button>
         </div>
     </div>
-    <!--<audio src="./sound/sound.mp3" autoplay></audio>-->
+    <audio id="auHpbd" src="./sound/hpbd.mp3" ></audio>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.js"
@@ -53,7 +105,8 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
     <script src="./config.js"></script>
     <script src="./js/main.js"></script>
-    <script src="./js/pleple.js"></script>
+    <script src="./js/loading.js"></script>
+    <script src="./js/book.js"></script>
 
 </body>
 

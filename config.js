@@ -1,16 +1,14 @@
 const CONFIG = {
     introTitle: 'He Lu Sếp !',
-    introDesc: 'Tụi em có món quà này dành cho sếp nè !',
+    introDesc: 'Tụi em có món quà dành cho sếp nè !',
     btnIntro: 'Lẹt Gâu !!!',
-    title: 'Có thích Tớ đúng hông nào😊',
-    desc: 'Ko trả lời mà thoát ra tức là yêu tui á nhá😁',
-    btnYes: 'Thích rất rất nhiềuuu🥰🥰🥰',
-    btnNo: 'Cậu mơ à :3',
+    title: 'Tăng lương cho tụi em nha sếp  😊😊😊',
+    desc: '',
+    btnYes: 'Đơn giản,cứ để anh 😅',
+    btnNo: 'Cái gì cơ , có cái nịt nhé 😆',
     question:'Lí do thích Tớ là gi nèe <3',
-    btnReply: 'Gửi cho anh <3',
-    reply: 'Vì cậu đẹp try vllll😍',
-    mess: 'Tớ biết màa^^ Yêu cậu😘😘',
-    messDesc: 'Nhớ giữ gìn sức khoẻ ăn uống đầy đủ đúng giờ giấc nhe. Hông là trở bệnh á ở 1 mình hông ai chăm đc đâu. Hihi ❤',
-    btnAccept: 'Okiiiii lun <3',
-    messLink: 'https://www.facebook.com/linhyter' 
+    mess: 'Tụi em biết sếp là một người tuyệt vời mà',
+    messDesc: 'Chào sếp nha, chúc sếp sn dui dẻ hông quạo , tụi em đi đây 😂',
+    btnAccept: 'Chạy đi đâu !!! gruuuu 😡😡😡',
+    messLink: 'https://gonsa.com.vn/' 
 }
